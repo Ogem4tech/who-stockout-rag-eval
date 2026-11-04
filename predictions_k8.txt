@@ -1,0 +1,16 @@
+PREDICTIONS FOR k=8 (written 4 Nov 2026, 11:30 Lagos, before any k=8 run)
+
+Baseline (k=4): 11 right (including 3 correct refusals), 3 partial, 6 wrong.
+Wrong: Q29, Q30, Q17, Q37, Q38, Q39.
+Note: k=8 is chosen after the Q29 miss (rank 6 of 354), so any gain is
+exploratory, not a held-out result.
+
+1. Q29 will be fixed. Page 11 ranked 6th, inside the top 8.
+2. Q30 and Q39 might be fixed. They need the same page 11. Uncertain.
+3. Q17 will probably NOT be fixed. The pages with the nine priorities
+   (2015 report, pp.14-15) may rank well below 8. Uncertain.
+4. Q37 will probably NOT be fixed. Half the answer was already in the
+   excerpts and the system still refused. That points to the prompt, not k.
+5. Q38 is uncertain.
+6. Risk: k=8 breaks a question that passes at k=4, or tempts the system
+   to answer one of Q25, Q27 or Q41 instead of refusing.
