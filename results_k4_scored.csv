@@ -1,0 +1,21 @@
+ID,Type,Answer correct,Citation page correct,Refusal behaviour,Failure category,Note
+Q01,Direct,Y,Y,Right (answered),,Cited p.1 and p.2; gold p.2
+Q05,Direct,Y,Y,Right (answered),,"p.18 also cited, not checked"
+Q29,Direct,N,n/a,WRONG refusal,Retrieval miss,"Gold p.11 ranked 6 of 354 (sim 0.759); text intact, extraction fine"
+Q30,Direct,N,n/a,WRONG refusal,Retrieval miss (rank not checked),Gold p.11 not in top 4; same page as Q29
+Q13,Table / layout,Y,Y,Right (answered),,"TB 33% / 50%, not mixed with malaria"
+Q15,Table / layout,Y,Y,Right (answered),,Cited p.7 (gold) and p.6; p.6 zinc example not checked against PDF
+Q33,Table / layout,Partial,Y,Right (answered),Extraction / generation (flattened table),Omitted 'alternate strength or presentation available'; resolution items correctly under Shortage status
+Q17,Aggregation,N,N (wrong document),n/a,Retrieval miss + conflation,"Gold: 9 priorities, 2015 report pp.14-15, not retrieved. System gave the 4 'next steps' of the 2017 report and attributed them to the 2015 consultation. Confident wrong answer"
+Q34,Aggregation,Y,Y,Right (answered),,"All three regulators, correct pages"
+Q18,Cross-document,Y,Y,Right (answered),Question-design flaw,"Answerable from one document; JSI side not needed, no JSI page retrieved"
+Q35,Cross-document,Partial,Y,Right (answered),Page-boundary split,Missed 'significant reductions in shortages and stockouts' (sentence splits across 2017 pp.10-11) and bar code tracing
+Q36,Cross-document,Y,Y,Right (answered),,Minor omission: six-month review of assumptions
+Q37,Cross-document,N,n/a,WRONG refusal,Wrong refusal (generation) + retrieval miss,"2017 p.14 with the 72-hour sentence WAS retrieved; 2016 pp.19-20 not retrieved. Half the answer in context, full refusal"
+Q24,Nuance / trap,Y,Y,Right (answered),,Caveat survived; stage 2 and 3
+Q38,Nuance / trap,N,n/a,WRONG refusal (arguable),Retrieval miss,Disclaimer on p.2 and p.10 not retrieved; p.12 was
+Q39,Nuance / trap,N,"Page Y, attribution wrong",n/a,Retrieval miss + misattribution,p.11 not retrieved; quoted the MSF annex row as 'WHO defines'. Fell into the trap. Confident wrong answer
+Q40,Nuance / trap,Partial,n/a,Acceptable (no invented penalties),Did not correct premise,"Bare refusal; gold says correct the premise (voluntary system, incentives)"
+Q25,Unanswerable,Y,n/a,Right (refused),,
+Q27,Unanswerable,Y,n/a,Right (refused),,
+Q41,Unanswerable,Y,n/a,Right (refused),,Trap avoided: 2016 figures not presented as 2017; 2017 p.10 was retrieved
