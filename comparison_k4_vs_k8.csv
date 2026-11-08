@@ -1,0 +1,21 @@
+ID,Type,k4 result,k8 result,Change,k8 note
+Q01,Direct,Right,Right,Unchanged,
+Q05,Direct,Right,Right,Unchanged,
+Q29,Direct,Wrong (wrong refusal),Right,FIXED,"Page 11 retrieved at rank 6 of 8; exact definition quoted, page 11 cited"
+Q30,Direct,Wrong (wrong refusal),Partial,Improved,Page 11 retrieved only at rank 8 (sim 0.72). Shortage defined correctly; stockout described as a result of a shortage but 'complete absence at the point of service delivery' not stated
+Q13,Table / layout,Right,Right,Unchanged,
+Q15,Table / layout,Right,Right,Unchanged,Adds a third step from p.6; extra detail not checked against the PDF
+Q33,Table / layout,Partial,Partial,Unchanged,Same omission: 'alternate strength or presentation available'
+Q17,Aggregation,Wrong (confident wrong answer),Wrong (wrong refusal),Failure changed form,"2015 p.14 retrieved at rank 8, p.15 not; system refused. No longer gives a false answer"
+Q34,Aggregation,Right,Right,Unchanged,
+Q18,Cross-document,Right,Right,Unchanged,Question-design flaw (answerable from one document)
+Q35,Cross-document,Partial,Partial,"Unchanged grade, 2015 half weaker","Lost the 2015 list of problems (financing, tendering, staff capacity); added a Stop Stockout mention from the 2016 report (p.8); still misses the 'significant reductions' result at the 2017 p.10-11 boundary"
+Q36,Cross-document,Right,Right,Unchanged,"Adds exponential smoothing (p.7), not checked against the PDF"
+Q37,Cross-document,Wrong (wrong refusal),Right,FIXED,2016 pp.19 and 20 retrieved at ranks 5 and 8; both halves answered correctly
+Q24,Nuance / trap,Right,Right,Unchanged,
+Q38,Nuance / trap,Wrong (wrong refusal),Wrong (wrong refusal),Unchanged,"Pages 10, 11 and 12 retrieved; still refused. Page 2 (the disclaimer) not retrieved"
+Q39,Nuance / trap,Wrong (confident wrong answer),Partial,Improved,"Gives the consensus definition (p.11) and the one-day wording (p.28) separately, labels p.28 as from the literature. Does not name MSF or say the annex differs"
+Q40,Nuance / trap,Partial,Partial,Unchanged,"Bare refusal, premise not corrected"
+Q25,Unanswerable,Right,Right,Unchanged,
+Q27,Unanswerable,Right,Right,Unchanged,
+Q41,Unanswerable,Right,Right,Unchanged,2017 p.10 retrieved; still correctly refused
