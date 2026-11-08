@@ -1,0 +1,85 @@
+ID,Type,k,Question,System answer,"Retrieved (source, page, sim)",model_version
+Q01,Direct,8,What are the three key steps of quantification in the JSI chapter?,"Based on the provided documents, the three key steps in quantification are:
+
+1. **Preparation** [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.1, p.2]
+2. **Forecasting** [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.1, p.2]
+3. **Supply Planning** [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.1, p.2]",JSI_Supply_Cha p2 (0.67); JSI_Supply_Cha p1 (0.65); JSI_Supply_Cha p2 (0.63); JSI_Supply_Cha p1 (0.63); JSI_Supply_Cha p3 (0.63); National_Healt p3 (0.63); JSI_Supply_Cha p1 (0.62); JSI_Supply_Cha p10 (0.62),gemini-3.6-flash
+Q05,Direct,8,Where and when was the WHO technical consultation on preventing and managing global stock outs held?,"The technical consultation on preventing and managing global stock outs of medicines was held in Geneva, Switzerland at the World Health Organization on December 8–9, 2015 [medicines_shortages.pdf, p.1, p.18].",medicines_shor p1 (0.81); medicines_shor p8 (0.78); medicines_shor p18 (0.77); WHO-EMP-IAU-20 p5 (0.76); WHO-EMP-IAU-20 p8 (0.76); WHO-EMP-IAU-20 p5 (0.76); meeting_report p5 (0.74); WHO-EMP-IAU-20 p22 (0.74),gemini-3.6-flash
+Q29,Direct,8,What core definition of a stockout did the October 2016 WHO expert consultation develop?,"Based on the provided excerpts, the core definition of a stockout developed by the expert consultation is:
+
+""The complete absence of the medicine, health product or vaccine at the point of service delivery to the patient"" (meeting_report_october_shortages.pdf, p.11).",meeting_report p1 (0.84); meeting_report p5 (0.81); meeting_report p12 (0.78); meeting_report p7 (0.77); meeting_report p13 (0.77); meeting_report p11 (0.76); meeting_report p29 (0.76); meeting_report p10 (0.76),gemini-3.6-flash
+Q30,Direct,8,"According to the October 2016 report, what is the difference between a shortage and a stockout?","According to the October 2016 report, the distinction on the demand side is as follows:
+
+* A **shortage** occurs when the supply of essential medicines, health products, and vaccines is insufficient to meet public health and patient needs, or when demand exceeds supply at any point in the supply chain [meeting_report_october_shortages.pdf, p.11].
+* A **stockout** is an ultimate result that may be created at the point of appropriate service delivery to the patient if the cause of the shortage cannot be resolved in a timely manner relative to the patient's clinical needs [meeting_report_october_shortages.pdf, p.11].",meeting_report p1 (0.78); meeting_report p5 (0.74); WHO-EMP-IAU-20 p14 (0.72); meeting_report p22 (0.72); meeting_report p7 (0.72); meeting_report p12 (0.72); meeting_report p20 (0.72); meeting_report p11 (0.72),gemini-3.6-flash
+Q13,Table / layout,8,"In the Nigeria strategy's Q3 2017 stock status findings, what were the TB programme's stock-out and emergency-stock-level percentages?","Based on the Q3 2017 key findings for the TB programme:
+
+* **Emergency Stock Level:** 50% [National_Health_Supply_Chain_Strategy_and_implementation_Plan_09092020_210322_222625_abcnig.pdf, p.16]
+* **Stock Out:** 33% [National_Health_Supply_Chain_Strategy_and_implementation_Plan_09092020_210322_222625_abcnig.pdf, p.16]",National_Healt p16 (0.76); National_Healt p15 (0.71); National_Healt p15 (0.71); National_Healt p30 (0.70); National_Healt p17 (0.69); National_Healt p2 (0.69); National_Healt p34 (0.69); National_Healt p31 (0.69),gemini-3.6-flash
+Q15,Table / layout,8,"If I only know how many patients were treated, how do I turn that into the quantity of medicine to order?","To convert the number of patients, visits, or episodes treated into an estimated quantity of medicine/products needed, follow these steps according to the documents:
+
+1. **Apply Conversion Factors:** Convert the estimated number of patients, visits, or episodes treated into estimates of product quantities consumed by applying specific conversion factors (`JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf`, p. 7).
+2. **Incorporate Treatment Guidelines:** This conversion requires making assumptions based on adherence to and application of Standard Treatment Guidelines (STGs), dispensing protocols, testing algorithms, or lab testing procedures (`JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf`, p. 7).
+3. **Multiply Patients Treated by Course of Treatment:** Multiply the number of treated patients (categorized by relevant groups, such as age or disease type) by the required amount of product per course of treatment (e.g., *Number of children treated* × *Number of tablets per course of treatment*) (`JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf`, p. 6).",JSI_Supply_Cha p6 (0.67); JSI_Supply_Cha p6 (0.66); JSI_Supply_Cha p7 (0.65); JSI_Supply_Cha p6 (0.65); JSI_Supply_Cha p5 (0.65); JSI_Supply_Cha p3 (0.64); JSI_Supply_Cha p3 (0.64); medicines_shor p9 (0.64),gemini-3.6-flash
+Q33,Table / layout,8,"In the 2017 report's proposed data fields for a shortage report, which fields belong to the ""Shortage status"" group, and what sits under ""Location and action""?","Based on Table 1 on page 15 of `WHO-EMP-IAU-2017.15-eng.pdf`, the data fields are grouped as follows:
+
+* **Shortage status:**
+  * Reason for the shortage
+  * Start date of shortage
+  * Resolution strategy/plan
+  * Resolution date
+
+* **Location and action:**
+  * Geographical location, including options for city, country and region
+
+**Source:**
+* `WHO-EMP-IAU-2017.15-eng.pdf`, p. 15",WHO-EMP-IAU-20 p15 (0.76); WHO-EMP-IAU-20 p14 (0.73); WHO-EMP-IAU-20 p5 (0.73); WHO-EMP-IAU-20 p19 (0.73); WHO-EMP-IAU-20 p14 (0.72); WHO-EMP-IAU-20 p6 (0.72); WHO-EMP-IAU-20 p8 (0.72); medicines_shor p3 (0.72),gemini-3.6-flash
+Q17,Aggregation,8,"How many priorities for WHO did the 2015 consultation list, and what was the first?",The documents do not answer this.,WHO-EMP-IAU-20 p21 (0.65); medicines_shor p1 (0.65); meeting_report p6 (0.64); meeting_report p6 (0.64); medicines_shor p9 (0.63); meeting_report p13 (0.63); medicines_shor p8 (0.63); medicines_shor p14 (0.63),gemini-3.6-flash
+Q34,Aggregation,8,Which regulators in the compiled definitions require reporting when a drug will be unavailable or undeliverable for more than 14 days?,"Based on the provided excerpts, the following entities/regulators are associated with definitions or reporting requirements for drugs that will be unavailable or undeliverable for more than 14 days:
+
+* **Belgian FAMHP**: Market authorization holders should notify the Belgian FAMHP when a drug will be unavailable for a time period longer than 14 days [`meeting_report_october_shortages.pdf`, p.15].
+* **Netherlands - Farmanco**: Reports all supply problems of drugs if it is expected that the drug will be undeliverable for a time period longer than 14 days [`meeting_report_october_shortages.pdf`, p.15].
+* **EMA - Government Org**: Uses the definition standard of a drug being ""Undeliverable for a time period longer than 14 days"" [`meeting_report_october_shortages.pdf`, p.16].",meeting_report p15 (0.79); meeting_report p16 (0.79); meeting_report p19 (0.78); meeting_report p17 (0.77); meeting_report p18 (0.77); meeting_report p20 (0.77); meeting_report p23 (0.76); meeting_report p22 (0.76),gemini-3.6-flash
+Q18,Cross-document,8,"The JSI chapter warns that stockouts can distort consumption-based forecasts. According to the Nigeria strategy, what share of facilities had a stock-out in Q1 2018?","According to the Nigeria strategy document, **36%** of facilities had a stock-out (minimum of one) in Q1, 2018 [National_Health_Supply_Chain_Strategy_and_implementation_Plan_09092020_210322_222625_abcnig.pdf, p.15].",National_Healt p16 (0.74); National_Healt p15 (0.73); meeting_report p29 (0.71); medicines_shor p20 (0.71); National_Healt p15 (0.70); medicines_shor p12 (0.70); JSI_Supply_Cha p5 (0.70); National_Healt p30 (0.70),gemini-3.6-flash
+Q35,Cross-document,8,How do the 2015 and 2017 WHO documents each describe South Africa's approach to managing shortages and stockouts?,"Based on the provided excerpts, South Africa's approach to managing shortages and stockouts is described as follows:
+
+### **2017 WHO Document (`WHO-EMP-IAU-2017.15-eng.pdf`)**
+* **National Data System and Dashboards:** The Department of Health implemented a data system to improve national supply chain performance. The system collects data continuously and generates dashboards to monitor supplier performance, financial payments, and stock management across multiple supply chain levels. It uses a scorecard format to highlight areas needing attention and provides trend analyses on specific medicines and supply chain performance [WHO-EMP-IAU-2017.15-eng.pdf, p.10].
+* **Drug Therapeutic Committees:** Drug Therapeutic Committees are required at national, provincial, regional, and institutional levels to ensure medicines are appropriately managed and available. Specific measures to reduce medicine shortages and stockouts are built directly into the overall system design [WHO-EMP-IAU-2017.15-eng.pdf, p.10].
+
+---
+
+### **Other/Earlier WHO Reports**
+* **`medicines_shortages.pdf`:** Indicates that national monitoring programmes are being put into place in South Africa with support from the Department of Health, civil society, and international organizations [medicines_shortages.pdf, p.9].
+* **`meeting_report_october_shortages.pdf`:** Cites the **Stop Stockout Programme in South Africa** as an example of a demand-side health programme initiative aimed at monitoring and reporting shortages and stockouts [meeting_report_october_shortages.pdf, p.8].",WHO-EMP-IAU-20 p10 (0.75); medicines_shor p8 (0.73); medicines_shor p9 (0.72); WHO-EMP-IAU-20 p2 (0.71); medicines_shor p11 (0.71); WHO-EMP-IAU-20 p5 (0.71); meeting_report p8 (0.71); WHO-EMP-IAU-20 p5 (0.71),gemini-3.6-flash
+Q36,Cross-document,8,The 2017 WHO report lists inaccurate forecasting as a cause of shortages. What does the JSI chapter say about measuring and improving forecast accuracy?,"Based on the provided excerpts from the JSI chapter, measuring and improving forecast accuracy involves the following:
+
+**Measuring Forecast Accuracy:**
+* **Comparing Actual vs. Forecasted Quantities:** To assess forecast accuracy, actual quantities consumed are compared against forecasted quantities [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.11].
+* **Calculating MAPE:** Percentage error is measured by calculating the Mean Absolute Percent Error (MAPE), defined as the absolute difference between the forecasted and actual values, expressed as a percentage of the actual values [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.11].
+* **Exponential Smoothing:** Exponential smoothing can be used as a statistical approach to assess forecast error and incorporate it into new forecasts by using past actual and forecast data to reduce variability [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.7].
+
+**Improving Forecast Accuracy:**
+* **Revisiting Assumptions and Data Quality:** If error rates are high, the underlying assumptions should be revisited and data quality improved so that the revised forecast better reflects actual consumption [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.11].
+* **Regular Monitoring:** Forecast accuracy and the overall quality of quantifications can be improved over time through continuous, regular monitoring [JSI_Supply_Chain_Manager's_Handbook_Chpt.5_Final.pdf, p.11].",JSI_Supply_Cha p11 (0.75); JSI_Supply_Cha p8 (0.74); JSI_Supply_Cha p11 (0.74); JSI_Supply_Cha p5 (0.71); WHO-EMP-IAU-20 p13 (0.71); medicines_shor p11 (0.71); JSI_Supply_Cha p7 (0.70); WHO-EMP-IAU-20 p8 (0.70),gemini-3.6-flash
+Q37,Cross-document,8,What do the compiled definitions and the 2017 notification report each say about the 72-hour definition of a stockout?,"Based on the provided documents:
+
+* **2017 Report (`WHO-EMP-IAU-2017.15-eng.pdf`, p. 14):** 
+  States that at the dispensing level, the inability to dispense to patients within 72 hours was the most commonly used definition. However, it notes that this definition would be appropriate only in certain contexts.
+
+* **Compiled Definitions (`meeting_report_october_shortages.pdf`):**
+  * **Page 20:** In France, a stock-out is defined as ""the inability for a pharmacy to deliver a drug to a patient within a delay of 72 hr.""
+  * **Page 19:** Under French Decree 28/09/2012, a drug supply disruption occurs when a community pharmacy or pharmacy for internal use (PUI) is unable to deliver a drug to a patient within 72 hours (or within a shorter time frame depending on compatibility problems with the continued treatment of the patient).",meeting_report p1 (0.77); meeting_report p12 (0.77); WHO-EMP-IAU-20 p14 (0.76); meeting_report p22 (0.75); meeting_report p20 (0.75); meeting_report p8 (0.75); meeting_report p29 (0.74); meeting_report p19 (0.74),gemini-3.6-flash
+Q24,Nuance / trap,8,What stage of the supply chain maturity model is Nigeria's supply chain at?,"Based on the provided documents, no objective assessment has been conducted to characterize the maturity stage of Nigeria's supply chain systems on the 5-stage maturity model scale; however, stakeholders involved in the strategic planning process have adjudged that Nigeria's supply chain systems exhibit features of **stage 2 (parallel supply chain)** and **stage 3 (combined supply chain)** [National_Health_Supply_Chain_Strategy_and_implementation_Plan_09092020_210322_222625_abcnig.pdf, p.19].",National_Healt p27 (0.79); National_Healt p19 (0.77); National_Healt p81 (0.76); National_Healt p2 (0.74); National_Healt p15 (0.74); National_Healt p2 (0.74); National_Healt p37 (0.73); National_Healt p14 (0.73),gemini-3.6-flash
+Q38,Nuance / trap,8,Is the stockout definition in the October 2016 report official WHO policy?,The documents do not answer this.,meeting_report p1 (0.83); meeting_report p5 (0.77); meeting_report p7 (0.77); meeting_report p12 (0.76); WHO-EMP-IAU-20 p14 (0.75); meeting_report p10 (0.74); meeting_report p11 (0.74); meeting_report p29 (0.74),gemini-3.6-flash
+Q39,Nuance / trap,8,"What is WHO's definition of a stockout, and does the annex say anything different?","Based on the provided excerpts, WHO's definitions of a stockout are as follows:
+
+* **WHO Definition (from review/literature):** WHO has defined a stockout as ""the complete absence of a required drug at a storage point or delivery point for at least one day"" or ""the absence of the medicines at health facility level"" [meeting_report_october_shortages.pdf, p.28].
+* **Core Draft Definition (developed during the consultation):** The core definition of a stockout is defined as ""[t]he complete absence of the medicine, health product or vaccine at the point of service delivery to the patient"" [meeting_report_october_shortages.pdf, p.11].
+
+Regarding the annex:
+While the excerpts mention that a table of consolidated definitions is included in Annex 1 [meeting_report_october_shortages.pdf, p.7], the excerpts do not explicitly provide the text labeled as ""Annex 1"" or state whether Annex 1 says anything different from the definitions provided in the text.",meeting_report p7 (0.77); meeting_report p29 (0.77); meeting_report p28 (0.77); meeting_report p5 (0.76); meeting_report p10 (0.76); meeting_report p1 (0.76); WHO-EMP-IAU-20 p14 (0.75); meeting_report p11 (0.75),gemini-3.6-flash
+Q40,Nuance / trap,8,What penalties would apply to countries that fail to report to the WHO global shortage notification system?,The documents do not answer this.,WHO-EMP-IAU-20 p8 (0.78); WHO-EMP-IAU-20 p5 (0.78); WHO-EMP-IAU-20 p3 (0.75); WHO-EMP-IAU-20 p8 (0.75); WHO-EMP-IAU-20 p19 (0.74); WHO-EMP-IAU-20 p17 (0.74); WHO-EMP-IAU-20 p13 (0.74); medicines_shor p11 (0.74),gemini-3.6-flash
+Q25,Unanswerable,8,How many COVID-19 vaccine doses did Nigeria receive in 2021?,The documents do not answer this.,National_Healt p27 (0.66); National_Healt p1 (0.65); National_Healt p7 (0.64); National_Healt p16 (0.63); National_Healt p17 (0.63); National_Healt p5 (0.63); National_Healt p14 (0.63); National_Healt p15 (0.63),gemini-3.6-flash
+Q27,Unanswerable,8,What was Nigeria's national stock-out rate in 2023?,The documents do not answer this.,National_Healt p16 (0.73); National_Healt p15 (0.72); National_Healt p17 (0.71); meeting_report p29 (0.69); National_Healt p15 (0.69); meeting_report p28 (0.69); National_Healt p2 (0.68); National_Healt p7 (0.68),gemini-3.6-flash
+Q41,Unanswerable,8,What was ACAME's success rate for inventory transfers in 2017?,The documents do not answer this.,WHO-EMP-IAU-20 p9 (0.67); WHO-EMP-IAU-20 p10 (0.64); WHO-EMP-IAU-20 p13 (0.63); medicines_shor p9 (0.61); National_Healt p76 (0.60); WHO-EMP-IAU-20 p12 (0.60); National_Healt p15 (0.60); National_Healt p15 (0.60),gemini-3.6-flash
